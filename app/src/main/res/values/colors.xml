@@ -3,5 +3,11 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
     <color name="background_home">#C1E79A</color>
+    <color name="background_visitor">#EB7FA1</color>
+
+    <color name="input_textcolor">#111</color>
+    <color name="input_textcolor_hint">#666</color>
+
 </resources>

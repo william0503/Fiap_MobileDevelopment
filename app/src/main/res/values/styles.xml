@@ -14,4 +14,18 @@
         <item name="android:windowFullscreen">true</item>
     </style>
 
+    <style name="home_input">
+        <item name="android:background">@drawable/home_background</item>
+
+        <item name="android:textColor">@color/input_textcolor</item>
+        <item name="android:textColorHint">@color/input_textcolor_hint</item>
+    </style>
+
+    <style name="visitor_input">
+        <item name="android:background">@drawable/visitor_background</item>
+
+        <item name="android:textColor">@color/input_textcolor</item>
+        <item name="android:textColorHint">@color/input_textcolor_hint</item>
+    </style>
+
 </resources>
