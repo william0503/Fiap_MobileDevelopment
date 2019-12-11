@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PingPong</string>
+    <string name="button_start">Jogar!</string>
+    <string name="hint_player_1">Jogador 1</string>
+    <string name="hint_player_2">Jogador 2</string>
+    <string name="label_dev">Desenvolvido por William da Silva Rocha</string>
+    <string name="label_sub_subtitle">Preencha abaixo o nome dos jogadores:</string>
+    <string name="label_subtitle">Vai começar a partida!</string>
+    <string name="label_title">PingPongX</string>
+</resources>

@@ -10,4 +10,6 @@
     <color name="input_textcolor">#111</color>
     <color name="input_textcolor_hint">#666</color>
 
+    <color name="button_text_color">#FFF</color>
+
 </resources>

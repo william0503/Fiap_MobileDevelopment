@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">PingPong</string>
+    <string name="label_title">PingPongX</string>
+    <string name="label_subtitle">The game is gonna start!</string>
+    <string name="label_sub_subtitle">Set the players\'s name:</string>
+    <string name="hint_player_1">Player 1</string>
+    <string name="hint_player_2">Player 2</string>
+    <string name="button_start">Play!</string>
+    <string name="label_dev">Development by William da Silva Rocha</string>
 </resources>
