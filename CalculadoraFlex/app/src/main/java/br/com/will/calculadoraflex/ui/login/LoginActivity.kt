@@ -9,6 +9,7 @@ import br.com.will.calculadoraflex.R
 import br.com.will.calculadoraflex.extensions.isValid
 import br.com.will.calculadoraflex.ui.form.FormActivity
 import br.com.will.calculadoraflex.ui.signup.SignUpActivity
+import br.com.will.calculadoraflex.watcher.FormValidationWatcher
 import com.google.android.material.textfield.TextInputLayout
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_login.*
@@ -22,6 +23,9 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+
+        inputLoginEmail.editText?.addTextChangedListener(FormValidationWatcher(inputLoginEmail))
+        inputLoginPassword.editText?.addTextChangedListener(FormValidationWatcher(inputLoginPassword))
 
         mAuth = FirebaseAuth.getInstance()
         mAuth.currentUser?.reload()
