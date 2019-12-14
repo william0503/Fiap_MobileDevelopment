@@ -23,10 +23,10 @@ class SplashActivity : AppCompatActivity() {
             Context.MODE_PRIVATE)
         val isFirstOpen = preferences.getBoolean("open_first", true)
         if (isFirstOpen) {
-            showLogin()
-        } else {
             markAppAlreadyOpen(preferences)
             showSplash()
+        } else {
+            showLogin()
         }
 
     }
@@ -49,9 +49,7 @@ class SplashActivity : AppCompatActivity() {
         ivLogo.clearAnimation()
         ivLogo.startAnimation(anim)
         Handler().postDelayed({
-            val nextScreen = Intent(this@SplashActivity, FormActivity::class.java)
-            startActivity(nextScreen)
-            finish()
+            showLogin()
         }, TEMPO_AGUARDO_SPLASHSCREEN)
     }
 }
