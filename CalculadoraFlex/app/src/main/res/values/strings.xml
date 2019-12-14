@@ -15,7 +15,7 @@
     <string name="header_spent">Gasto R$/Km</string>
     <string name="gasoline">Gasolina</string>
     <string name="ethanol">Etanol</string>
-    <string name="label_fuel_ratio">Relação Gasolina/Etanol: %1$f</string>
+    <string name="label_fuel_ratio">Relação Gasolina/Etanol: %1$s</string>
     <string name="label_email">E-mail</string>
     <string name="label_password">Senha</string>
     <string name="button_login">Entrar</string>
